@@ -1,0 +1,129 @@
+.main-cont-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 85px 80px 0;
+}
+
+.main-cont-product .img-container img {
+    max-height: 500px;
+    
+    margin: 0 80px;
+  }
+  
+  
+.main-cont-product .right-side-wrapper {
+    margin: 0 55px;
+}
+
+.main-cont-product .right-side-wrapper h3 {
+    color: black;
+    font-family: "Dosis", sans-serif;
+    font-size: x-large;
+}
+
+.main-cont-product .right-side-wrapper p {
+    color: black;
+    font-family: "Dosis", sans-serif;
+}
+
+.main-cont-product .right-side-wrapper a {
+    color: rgb(214, 83, 162);
+    text-decoration: none;
+}
+
+.main-cont-product .right-side-wrapper h4 {
+    color: black;
+    font-family: "Dosis", sans-serif;
+    font-size: large;
+}
+
+.main-cont-product button {
+    color: black;
+    font-family: "Dosis", sans-serif;
+    height: 50px;
+    width: 15vw;
+    color: black;
+    border-radius: 30px;
+    background-color: rgb(159, 157, 157);
+    border: none;
+    color: white;
+}
+
+.main-cont-product .content-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    margin: 35px 0 0 0;
+    justify-content: space-between;
+}
+
+.main-cont-product .content-wrapper {
+    padding: 0%;
+    margin: 3px 0 -6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-cont-product .content-box {
+    border-style: groove;
+    border-style: solid;
+    color: rgb(214, 83, 162);
+}
+
+.main-cont-product .content-box p {
+    padding: 0;
+    margin: 8px 0 8px 22px;
+}
+
+.main-cont-product .button-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-cont-product hr {
+    border: 1px solid rgb(214, 83, 162);
+}
+
+.main-cont-product .icon-wrap span {
+    height: 50px;
+    
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.main-cont-product .descript-container {
+    margin: 0 0 55px 0;
+}
+
+.main-cont-product .content-wrapper input {
+    height: 23px;
+    width: 72px;
+}
+
+.main-cont-product .right-side-wrapper .content-wrapper h4 {
+    margin: 0 22px 0px 0px;
+}
+
+@media all and (max-device-width: 900px) {
+    .main-cont-product {
+        flex-direction: column;
+        margin: 85px 4px 0;
+    }
+
+    .main-cont-product .img-container img{
+        width: 40vw;
+    }
+    .right-icon, .left-icon{
+        display: none;
+    }
+    .main-cont-product .right-side-wrapper h3,
+    .main-cont-product .right-side-wrapper h4{
+        text-align: center;
+    }
+    .main-cont-product button{
+        width: 25vw;
+    }
+}

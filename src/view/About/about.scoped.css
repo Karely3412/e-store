@@ -1,0 +1,62 @@
+
+.main-container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 245, 242);
+}
+
+.about-container h1 {
+    font-family: "La Belle Aurore", cursive;
+    padding: 0%;
+    margin: 230px 0 0 0;
+    font-size: xxx-large;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    border: 0%;
+    padding: 0%;
+    margin: 5% 23%;
+    width: 50%;
+    height: 50%;
+}
+
+.text-wrapper-about {
+    font-family: "La Belle Aurore", cursive;
+    padding: 0%;
+    margin: 50px;
+}
+
+.main-container-about img {
+    border-radius: 360px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainText {
+    font-size: large;
+}
+
+.text-wrapper-about p {
+    margin: 0% 200px 148px;
+}
+
+.sec-text-wrapper p {
+    margin: 0% 200px 148px;
+    padding: 0%;
+}
+
+@media all and (max-device-width: 900px) {
+    .about-container h1{
+        margin: 130px 0 0 0;
+    }
+    .main-container-about img{
+        width: 60vw;
+    }
+
+    .text-wrapper-about p{
+        margin: 0 1vw 20px;
+    }
+}
